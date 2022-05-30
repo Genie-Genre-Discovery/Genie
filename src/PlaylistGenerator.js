@@ -24,7 +24,7 @@ const PlaylistGenerator = () => {
           <span class="playlistPLAYLIST">PLAYLIST</span>
           <div class="playlistImage"></div>
         </div>
-        <div class="v5_261">
+        <div class="playlistContainer">
           <div class="v3_271">
             <div class="name"></div>
             <span class="v3_273">#</span>

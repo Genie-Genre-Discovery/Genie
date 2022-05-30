@@ -1,12 +1,10 @@
 
   .v10_428 {
     width: 100%;
-    height: 1100px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    height: 100%;
     opacity: 1;
-    position: relative;
+    position: absolute;
+    overflow: hidden;
   }
   .v2_2 {
     width: 100%;
@@ -30,11 +28,7 @@
 
   }
   .playlistTitlebox {
-    width: 100%;
     height: 248px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 101px;
@@ -117,16 +111,13 @@
     opacity: 0.1;
     border: 1px solid #FFFFFF;  
   }
-  .v5_261 {
+  .playlistContainer {
     width: 100%;
     height: 494px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 378px;
-    left: 143px;
+    left: 85px;
   }
   .v3_271 {
     width: 100%;
@@ -209,27 +200,4 @@
   .name {
     color: #fff;
   }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
+  
