@@ -2,28 +2,18 @@
   .v10_428 {
     width: 100%;
     height: 1100px;
-    background: url("../images/cage.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 10px 10px;
-    margin: 10px;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
   }
   .v2_2 {
     width: 100%;
     height: 1080px;
     background: rgba(30,30,30,1);
-    margin: 10px;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    overflow: hidden;
+    position: relative;
   }
   .v3_194 {
     width: 100%;
@@ -31,24 +21,17 @@
     background: rgba(0,0,0,1);
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
   }
-  .v3_196 {
-    width: 100%;
-    height: 719px;
+  .background {
     background: linear-gradient(rgba(144,174,167,1), rgba(0,0,0,1));
     opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
+    position: absolute;
+    width: 100%;
+
   }
-  .v5_260 {
-    width: 710px;
+  .playlistTitlebox {
+    width: 100%;
     height: 248px;
-    background: url("../images/cage.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -56,59 +39,52 @@
     position: absolute;
     top: 101px;
     left: 103px;
-    overflow: hidden;
   }
-  .v3_240 {
-    width: 422px;
+  .playlistName {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 86px;
-    left: 288px;
+    left: 285px;
     font-family: Allerta;
     font-weight: Regular;
     font-size: 90px;
     opacity: 1;
     text-align: left;
+    letter-spacing: -0.35rem;
   }
-  .v4_114 {
-    width: 211px;
-    height: 22px;
-    background: url("../images/cage.webp");
+  .playlistInfo {
+    top: 110px;
+    left: 0px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 215px;
-    left: 288px;
-    overflow: hidden;
+    position: relative;
+
   }
-  .v3_243 {
-    width: 153px;
+  .playlistLength {
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 2px;
-    left: 58px;
+    top: 100px;
+    left: 350px;
     font-family: Amiko;
     font-weight: Regular;
     font-size: 15px;
     opacity: 0.699999988079071;
     text-align: left;
   }
-  .v3_244 {
-    width: 51px;
+  .playlistProgram {
     color: rgba(255,255,255,1);
-    position: relative;
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    top: 100px;
+    left: 291px;
     font-family: Amiko;
     font-weight: Regular;
     font-size: 15px;
     opacity: 1;
     text-align: left;
   }
-  .v3_258 {
-    width: 61px;
+  .playlistPLAYLIST {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 73px;
@@ -119,24 +95,31 @@
     opacity: 1;
     text-align: left;
   }
-  .v5_262 {
+  .playlistImage {
     width: 259px;
     height: 248px;
-    background: url("../images/cage.webp");
+    background: url(file:///Users/garydong/Desktop/PopRightNow.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 0px;
     box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.20000000298023224);
-    overflow: hidden;
+  }
+  .line{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 143px;
+    top: 407px;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;  
   }
   .v5_261 {
     width: 100%;
     height: 494px;
-    background: url("../images/cage.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -144,12 +127,11 @@
     position: absolute;
     top: 378px;
     left: 143px;
-    overflow: hidden;
   }
   .v3_271 {
     width: 100%;
     height: 29px;
-    background: url("../images/cage.webp");
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -157,7 +139,6 @@
     position: relative;
     top: 0px;
     left: 0px;
-    overflow: hidden;
   }
   .name {
     color: #fff;
@@ -216,7 +197,7 @@
   .v3_460 {
     width: 100%;
     height: 444px;
-    background: url("../images/cage.webp");
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -224,7 +205,6 @@
     position: absolute;
     top: 50px;
     left: 0px;
-    overflow: hidden;
   }
   .name {
     color: #fff;

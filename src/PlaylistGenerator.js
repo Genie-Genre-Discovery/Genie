@@ -6,19 +6,19 @@ const PlaylistGenerator = () => {
   <div class="v10_428">
     <div class="v2_2">
       <div class="v3_194">
-        <div class="v3_196">
+        <div class="background">
           <button>
           <Link to="/">back button</Link> 
           </button>
         </div>
-        <div class="v5_260">
-          <span class="v3_240">Emo Punk</span>
-          <div class="v4_114">
-            <span class="v3_243">100 songs, 5 hr 5 min</span>
-            <span class="v3_244">Spotify</span>
+        <div class="playlistTitlebox">
+          <span class="playlistName">Pop Right Now</span>
+          <div class="playlistInfo">
+            <span class="playlistLength">100 songs, 5 hr 5 min</span>
+            <span class="playlistProgram">Spotify</span>
           </div>
-          <span class="v3_258">PLAYLIST</span>
-          <div class="v5_262"></div>
+          <span class="playlistPLAYLIST">PLAYLIST</span>
+          <div class="playlistImage"></div>
         </div>
         <div class="v5_261">
           <div class="v3_271">
@@ -40,7 +40,7 @@ const PlaylistGenerator = () => {
             <div class="name"></div>
           </div>
         </div>
-        <div class="name"></div>
+        <div class="line"></div>
       </div>
     </div>
   </div>
