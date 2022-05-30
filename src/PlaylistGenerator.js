@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import './style/playlistGeneratorCSS.css'
+import {handleLogin} from './constants/auth'
 
 const PlaylistGenerator = () => {
   return(
@@ -7,6 +8,9 @@ const PlaylistGenerator = () => {
     <div class="v2_2">
       <div class="v3_194">
         <div class="v3_196">
+        <button onClick={handleLogin}>
+          Connect Playlist to Spotify
+          </button>
           <button>
           <Link to="/">back button</Link> 
           </button>
