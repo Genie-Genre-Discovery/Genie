@@ -98,7 +98,7 @@
   .playlistImage {
     width: 259px;
     height: 248px;
-    background: url(file:///Users/garydong/Desktop/PopRightNow.jpg);
+    background: url('../images/PopRightNow.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
