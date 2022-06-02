@@ -1,0 +1,203 @@
+
+  .v10_428 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
+  .v2_2 {
+    width: 100%;
+    height: 1080px;
+    background: rgba(30,30,30,1);
+    opacity: 1;
+    position: relative;
+  }
+  .v3_194 {
+    width: 100%;
+    height: 1080px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: relative;
+  }
+  .background {
+    background: linear-gradient(rgba(144,174,167,1), rgba(0,0,0,1));
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+
+  }
+  .playlistTitlebox {
+    height: 248px;
+    opacity: 1;
+    position: absolute;
+    top: 101px;
+    left: 103px;
+  }
+  .playlistName {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 86px;
+    left: 285px;
+    font-family: Allerta;
+    font-weight: Regular;
+    font-size: 90px;
+    opacity: 1;
+    text-align: left;
+    letter-spacing: -0.35rem;
+  }
+  .playlistInfo {
+    top: 110px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+
+  }
+  .playlistLength {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    font-family: Amiko;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 0.699999988079071;
+    text-align: left;
+  }
+  .playlistProgram {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 100px;
+    left: 291px;
+    font-family: Amiko;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .playlistPLAYLIST {
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 73px;
+    left: 291px;
+    font-family: Amiko;
+    font-weight: Regular;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+  }
+  .playlistImage {
+    width: 259px;
+    height: 248px;
+    background: url('../images/PopRightNow.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.20000000298023224);
+  }
+  .line{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 143px;
+    top: 407px;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;  
+  }
+  .playlistContainer {
+    width: 100%;
+    height: 494px;
+    opacity: 1;
+    position: absolute;
+    top: 378px;
+    left: 85px;
+  }
+  .v3_271 {
+    width: 100%;
+    height: 29px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .name {
+    color: #fff;
+  }
+  .v3_273 {
+    width: 12px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 21px;
+    font-family: Amiko;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.699999988079071;
+    text-align: left;
+  }
+  .v3_274 {
+    width: 40px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 49px;
+    font-family: Amiko;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 0.699999988079071;
+    text-align: left;
+  }
+  .v3_275 {
+    width: 51px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 711px;
+    font-family: Amiko;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 0.699999988079071;
+    text-align: left;
+  }
+  .v3_276 {
+    width: 93px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 408px;
+    font-family: Amiko;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 0.699999988079071;
+    text-align: left;
+  }
+  .name {
+    color: #fff;
+  }
+  .v3_460 {
+    width: 100%;
+    height: 444px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+  }
+  .name {
+    color: #fff;
+  }
+  
