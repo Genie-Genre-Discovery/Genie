@@ -3,7 +3,7 @@
     width: 100%;
     height: 100%;
     opacity: 1;
-    position: absolute;
+    position: relative;
     overflow: hidden;
   }
   .v4_118 {
@@ -12,37 +12,53 @@
     background: linear-gradient(rgba(144,174,167,1), rgba(0,0,0,1));
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    overflow: hidden;
   }
-  .v4_124 {
-    width: 303px;
+  .nameTitle {
+    display: flex;
     color: rgba(255,255,255,1);
-    position: relative;
+    position:absolute;
     font-family: Amiko;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
-    text-align: center;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
   }
-  .v12_154 {
-    width: 119px;
-    height: 52px;
-    background: rgba(55,185,76,1);
-    padding: 10px 10px;
-    margin: 14px;
+  .generateButton {
+    display: flex;
+    width: 100%;
+    height:25%;
     opacity: 1;
     position: relative;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .generate {
+    width: 140px;
+    height: 52px;
+    background: rgba(55,185,76,1);
+    opacity: 1;
+    position: absolute;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
     overflow: hidden;
+    top: 10%;
+
+    /*this is for the text*/
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 1000px;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none;
+    /* identical to box height */
+  
+    letter-spacing: 0.02em;
+  
+    color: #000000;
   }
   .v12_153 {
     width: 86px;
@@ -54,17 +70,27 @@
     opacity: 1;
     text-align: center;
   }
-  .v4_120 {
-    width: 422px;
+  .text {
+    display: flex;
+    width: 100%;
     color: rgba(255,255,255,1);
     position: relative;
     font-family: Amiko;
     font-weight: Regular;
     font-size: 75px;
     opacity: 1;
-    text-align: center;
+    bottom:15%;
+    justify-content: center;
+
+
   }
-  .v5_256 {
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%
+  }
+  .image{
     width: 377px;
     height: 378px;
     background: url("../images/v5_256.png");
@@ -72,26 +98,12 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 300px;
-    left: 600px;
+    position: relative;
+    bottom: 50%;
     box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.20000000298023224);
     overflow: hidden;
   }
-  .v12_156 {
-    width: 169px;
-    height: 52px;
-    background: rgba(55,185,76,1);
-    padding: 10px 10px;
-    margin: 14px;
-    opacity: 1;
-    position: relative;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    overflow: hidden;
-  }
+ 
   .v12_157 {
     width: 135px;
     color: rgba(0,0,0,1);
@@ -101,4 +113,59 @@
     font-size: 20px;
     opacity: 1;
     text-align: center;
+  }
+  .createPlaylistButton {
+    width: 100%;
+    height: 25%;
+    opacity: 1;
+    position: relative;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+  }
+  .createPlaylist {
+    width: 170px;
+    height: 52px;
+    background: rgba(55,185,76,1);
+    padding: 10px 10px;
+    margin: 14px;
+    opacity: 1;
+    position: absolute;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    overflow: hidden;
+    /*this is for the text*/
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 1000px;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none;
+    /* identical to box height */
+  
+    text-align: center;
+    letter-spacing: 0.02em;
+  
+    color: #000000;
+  }
+  .link {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 1000px;
+  font-size: 20px;
+  line-height: 32px;
+  text-decoration: none;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #000000;
   }

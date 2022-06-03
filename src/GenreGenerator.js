@@ -20,24 +20,26 @@ const GenreGenerator = () => {
   return(
       <div class="v4_117">
         <div class="v4_118">
-          <span class="v4_124">GENIE</span>
-            <div class="v12_154">
-              <button onClick ={() => {
+          <span class="nameTitle">GENIE</span>
+            <div class="generateButton">
+              <button class="generate" onClick ={() => {
               generateGenre()
               setText(finalGenre)          
         }}>
                Generate
               </button>
           </div>
-            <span class="v4_120">{text}</span>
-            <div class="v5_256"/>
-            <div class="v12_156">
-              <button>
-                <Link to="/playlist">Create Playlist</Link>
+          <span class="text">{text}</span>
+          <div class="imageContainer">
+            <div class="image"></div>
+          </div>
+          <div class="createPlaylistButton">
+              <button class="createPlaylist">
+                <Link class="link" to="/playlist">Create Playlist</Link>
               </button>
-            </div>
-        </div>
+          </div>
       </div>
+    </div>
   )
 }
 
